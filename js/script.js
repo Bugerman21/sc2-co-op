@@ -15,7 +15,7 @@ for (var i = 0; i < 4; i++) {
 
   for (var j = 0; j < 4; j++) {
 	count++;
-      document.write("<td class='px-4'>" + "<a href='#'><img src='img/" + count + ".PNG' class='part_two_images' alt='" + heroes[j+temp] + "'></a>" + "</td>");
+      document.write("<td class='px-4'>" + "<a href='#'><img src='img/" + count + ".png' class='part_two_images' alt='" + heroes[j+temp] + "'></a>" + "</td>");
 	 if (count == heroes.length) {
 		    break;
 	  }
