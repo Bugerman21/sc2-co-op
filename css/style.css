@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Alegreya+Sans:100,300,400,500,700,800,900');
+
+/* a { text-decoration: none; } */
+/* h1, h2, h3, h4, h5 { padding: 0; } */
+/* ul { margin: 0; } */
+
+/* Bootstrap size
+Extra small < 576px = .col-, Max container width None (auto) - Phone
+Small ≥ 576px = .col-sm-, Max container width 540px (sm) - Phone/Tablet
+Medium ≥ 768px = .col-md-, Max container width 720px (md) - Tablet
+Large ≥ 992px = .col-lg-, Max container width 960px (lg) - Desktop
+Extra large ≥ 1200px = .col-xl-, Max container width 1140px (xl) - TV
+*/
+
+/*========================== НАЧАЛО =========================*/
+/* Убирает стрелочки в формах счетчика для input type-number */
+/* Для Chrome*/
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+/* Для FireFox*/
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+/* Для других */
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+/* Убирает стрелочки в формах счетчика для input type-number */
+/*======================== КОНЕЦ ===========================*/
+
+
+html, body {
+  background: #000000;
+  height: 100%;
+/*  width: 100%;*/
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth; /* задает плавную прокрутку страницы */
+}
+
+
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+  /* take footer down */
+  .wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  footer {
+    flex: 0 0 auto;
+  }
+  /* take footer down end */
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 970px) {
+
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+
+}
+/*----------------- End media "min-width: 1200px" -----------------*/
+
+
+
+
+
+
+
+
+
+
+/*------- Borders -------*/
+.red {
+  border: solid 2px red;
+}
+.blue {
+  border: solid 2px blue;
+}
+.green {
+  border: solid 2px green;
+}
+.black {
+  border: solid 2px black;
+}
+.white {
+  border: solid 2px white;
+}
+/*------ End Borders ------*/
+
+
+/*------- Text color -------*/
+.t_black {
+  color: black;
+}
+.t_lieghtblack {
+  color: #333333;
+}
+.t_white {
+  color: white;
+}
+.t_silver {
+  color: silver;
+}
+.t_grey {
+  color: #A1A1A1;
+}
+.t_darkgrey {
+  color: #7c7c7e;
+}
+.t_red {
+  color: red;
+}
+/*------ End Text color ------*/
+
+
+/*------- Text size -------*/
+.wrapper h2 {
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-size: 2.4em;
+}
+.t_p_sm {
+  font-size: 0.94em;
+}
+/*------ End Text size ------*/
+
+
+/*------- Circle for AwesomFont -------*/
+.circle {
+  border-radius: 100%;
+  background-color: #00aeda;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.7em;
+  text-align: center;
+}
+/*----- Circle for AwesomFont color ----*/

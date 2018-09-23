@@ -1,0 +1,185 @@
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+header {
+  background: #FFFFFF;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+
+
+  /* NAVIGATION STYLE */
+  nav {
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+
+    .big_logo {
+      width: 180px;
+    }
+
+    .nav_fluid {
+      margin: 0;
+    }
+
+    nav .dropdown-menu {
+      background-color: transparent;
+    }
+
+      nav .dropdown-menu a:hover {
+        background-color: transparent;
+      }
+
+    /* nav top color */
+    #collapse_target a {
+      color: #ffffff;
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
+    }
+
+    .gamburger { /* Navigation for mobile & tablets*/
+      border: 0;
+    }
+  /* NAVIGATION STYLE END */
+
+
+  /*
+   * Introduition style
+   */
+  .get_started {
+    padding: 30% 0;
+  }
+
+    .get_started  h2 {
+      color: #ffffff;
+      font-weight: 900;
+      letter-spacing: -2px;
+      font-size: 1.6em;
+    }
+
+    .get_started p {
+      color: #e2e2e2;
+    }
+
+    .get_started > p {
+      font-size: 0.9em;
+      margin: 0 11px;
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
+    }
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+  /* NAVIGATION STYLE */
+    .big_logo {
+      width: 250px;
+    }
+
+    /*
+     * Introduition style
+     */
+    .get_started {
+      padding: 20% 0;
+    }
+
+      .get_started  h2 {
+        font-size: 2.2em;
+      }
+
+      .get_started > p {
+        font-size: 1em;
+      }
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+  /* NAVIGATION STYLE */
+  nav {
+    font-size: 1.1em;
+  }
+
+    .nav_fluid > div {
+      position: relative;
+      top: -50px;
+    }
+
+    .big_logo {
+      width: 250px;
+    }
+
+    ul li {
+      padding: 0 10px;
+    }
+  /* NAVIGATION STYLE END */
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 970px) {
+  /* NAVIGATION STYLE */
+  nav {
+    font-size: 1.5em;
+  }
+
+    .big_logo {
+      width: 300px;
+    }
+
+    ul li {
+      padding: 0 15px;
+    }
+  /* NAVIGATION STYLE END */
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+  /* NAVIGATION STYLE */
+  nav {
+    font-size: 1.7em;
+  }
+
+    .big_logo {
+      width: 400px;
+    }
+
+    ul li {
+      padding: 0 20px;
+    }
+  /* NAVIGATION STYLE END */
+}
+/*----------------- End media "min-width: 1200px" -----------------*/

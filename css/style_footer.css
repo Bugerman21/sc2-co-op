@@ -1,0 +1,130 @@
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+#anchor_home { /* Scroll page up */
+  font-size: 2em;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: #ffc241;
+  z-index: 1;
+}
+
+footer {
+  background-color: #222225;
+}
+
+  footer {
+    padding-top: 80px;
+  }
+
+  footer a {
+    color: #00aeda;
+    font-weight: 500;
+  }
+
+  footer a:hover {
+    color: #00aeda;
+  }
+
+  footer h5 {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  footer p {
+    line-height: 15px;
+  }
+
+  footer p, li {
+    font-size: 0.84em;
+  }
+
+  footer li {
+    list-style-type: none;
+    line-height: 25px;
+  }
+
+  footer > section {
+    padding: 0 5%;
+  }
+
+  .lang {
+
+  }
+
+  .lang a {
+
+  }
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+  footer > section {
+    padding: 0 15%;
+  }
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+  #anchor_home { /* Scroll page up */
+    font-size: 3em;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    color: #ffc241;
+    z-index: 1;
+  }
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 992px) {
+  footer > section {
+    padding: 0 2%;
+  }
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+  footer > section {
+    padding: 0 18%;
+  }
+}
+/*----------------- End media "min-width: 1200px" -----------------*/

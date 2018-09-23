@@ -1,0 +1,98 @@
+/*---------- Extra small devices (Phone <= 576px) - auto ----------*/
+main {
+  text-align: center;
+}
+
+/*-------------------------------*/
+/*----------  Part Two  ---------*/
+  /*
+   * PART TWO - Introdution
+   */
+  .part_two_wrapper {
+    background-color: #000000;
+  }
+
+    .part_two_wrapper > h2 {
+      color:  #ffa344;
+    }
+
+
+    /*
+     * PART TWO - Articles
+     */
+    .part_two {
+      font-size: 1.1em;
+      padding: 0 20px;
+    }
+
+      .part_two i {
+        font-size: 2.7em;
+        color: #00aeda;
+        font-weight: bold;
+      }
+
+      .part_two_images {
+        width: 100%;
+        resize: both;
+      }
+/*----------- End extra small devices (Phones < 576px) ------------*/
+
+
+
+
+
+
+
+
+
+
+/* Small devices (Phone/Tablet >= 576px) - "min-width: 576px" (sm) */
+@media screen and (min-width: 576px) {
+
+}
+/*----------------- End media "min-width: 576px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Medium devices (Tablet >= 768px) - "min-width: 768px" (md) --*/
+@media screen and (min-width: 768px) {
+
+}
+/*----------------- End media "min-width: 768px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--- Large devices (Desktop >= 992px) - "min-width: 970px" (lg) --*/
+@media screen and (min-width: 992px) {
+
+}
+/*----------------- End media "min-width: 992px" ------------------*/
+
+
+
+
+
+
+
+
+
+
+/*- Extra large devices (TV >= 1200px) - "min-width: 1170px" (xl) -*/
+@media screen and (min-width: 1170px) {
+
+}
+/*----------------- End media "min-width: 1200px" -----------------*/
